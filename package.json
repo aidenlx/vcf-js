@@ -4,6 +4,7 @@
   "description": "High performance streaming Variant Call Format (VCF) parser in pure JavaScript",
   "main": "dist/index.js",
   "module": "esm/index.js",
+  "private": true,
   "repository": "github:GMOD/vcf-js",
   "author": {
     "name": "Garrett Stevens",
@@ -41,18 +42,13 @@
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@types/jest": "^28.1.8",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
     "documentation": "^14.0.0",
-    "eslint": "^8.2.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint": "~8.26.0",
     "jest": "^28.1.3",
-    "prettier": "^2.5.0",
     "rimraf": "^3.0.2",
     "standard-changelog": "^2.0.27",
     "ts-jest": "^28.0.8",
-    "typescript": "^4.5.2"
+    "typescript": "~4.7.4"
   },
   "keywords": [
     "vcf",

@@ -1,3 +1,5 @@
+**/.rush/temp
+
 # Project-specific
 dist/
 .vscode/
