@@ -22,7 +22,7 @@ module.exports = {
     "@aidenlx/eslint-config/regexp",
     "@aidenlx/eslint-config/react",
     // Apply prettier and disable incompatible rules
-    "@aidenlx/eslint-config/prettier",
+    // "@aidenlx/eslint-config/prettier",
   ],
   settings: {
     "import/resolver": {

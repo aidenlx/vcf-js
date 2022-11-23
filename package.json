@@ -48,7 +48,8 @@
     "rimraf": "^3.0.2",
     "standard-changelog": "^2.0.27",
     "ts-jest": "^28.0.8",
-    "typescript": "~4.7.4"
+    "typescript": "~4.7.4",
+    "@aidenlx/eslint-config": "workspace:*"
   },
   "keywords": [
     "vcf",
