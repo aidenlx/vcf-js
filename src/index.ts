@@ -1,4 +1,4 @@
-import VCF from './parse'
+import VCF from './parse.js'
 
 export interface Breakend {
   Join: string

@@ -1,4 +1,4 @@
-import vcfReserved from './vcfReserved'
+import vcfReserved from './vcfReserved.js'
 
 function Variant(stuff: any) {
   //@ts-ignore

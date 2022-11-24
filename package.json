@@ -24,6 +24,15 @@
   "engines": {
     "node": ">=6"
   },
+  "exports": {
+    ".": {
+      "import": "./esm/index.js"
+    },
+    "./reserved": {
+      "import": "./esm/vcfReserved.js"
+    }
+  },
+  "type": "module",
   "scripts": {
     "test": "jest",
     "coverage": "npm test -- --coverage",
