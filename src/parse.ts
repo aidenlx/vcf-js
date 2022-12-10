@@ -78,7 +78,9 @@ export default class VCF {
       'INFO',
     ]
     if (fields.length < 8) {
-      throw new Error(`VCF header missing columns:\n${lastLine}`)
+      console.error(`VCF header missing columns:\n${lastLine}`)
+      this.samples = [];
+      return;
     } else if (
       thisHeader.length !== correctHeader.length ||
       !thisHeader.every((value, index) => value === correctHeader[index])
